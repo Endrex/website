@@ -6,7 +6,7 @@
 .banner{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('b.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('c.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100px;
@@ -80,7 +80,7 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 100%; /* Full width for input fields */
+    width: 100%;
     padding: 10px;
     font-size: 1.1em; 
     margin-top: 10px;
@@ -91,18 +91,18 @@ form textarea {
 }
 
 form input[type="submit"] {
-    width: 100%; /* Full width submit button */
+    width: 100%;
     padding: 10px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.2em; /* Adjust submit button font size */
+    font-size: 1.2em;
     cursor: pointer;
 }
 
 form input[type="submit"]:hover {
-    background-color:transparent /* Darker green on hover */
+    background-color:transparent
 }
 .anothersurvey{
     margin-top: 20px;
